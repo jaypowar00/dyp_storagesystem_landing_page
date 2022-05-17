@@ -1,4 +1,4 @@
-import dyp_logo from './assets/imgs/dyp_logo.svg';
+import dyp_logo from './dyp_logo.svg';
 import './App.css';
 import TypeAnimation from 'react-type-animation'
 import { AwesomeButton } from "react-awesome-button";
