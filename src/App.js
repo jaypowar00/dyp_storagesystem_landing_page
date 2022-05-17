@@ -22,7 +22,7 @@ function App() {
                 </div>
                 <div className='footer'>
                   Computer Science &amp; Engineering Department<br/>
-                  <a href="https://github.com/RishikeshMane" target="_blank" rel="noreferrer" >Rishikesh Mane &#40;S.Y.&#41;</a> &amp; <a href="https://github.com/jaypowar00" target="_blank" rel="noreferrer" >Jay Powar &#40;B.Tech.&#41;</a>
+                  <a href="https://github.com/RishikeshMane" title='See Rishikesh Mane on GitHub' target="_blank" rel="noreferrer" >Rishikesh Mane &#40;S.Y.&#41;</a> &amp; <a href="https://github.com/jaypowar00" title='See Jay Powar on GitHub' target="_blank" rel="noreferrer" >Jay Powar &#40;B.Tech.&#41;</a>
                 </div>
             </div>
         </div>
