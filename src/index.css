@@ -1,5 +1,5 @@
 body {
-  background-color: #282c34;
+  background-color: #141D24;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -16,6 +16,13 @@ code {
 .title {
   background-color: #103d74;
   height: fit-content;
+  text-align: start;
+  color: aliceblue;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .content {
