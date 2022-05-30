@@ -19,7 +19,6 @@ code {
   text-align: start;
   color: aliceblue;
   font-family: 'Times New Roman', Times, serif;
-  font-size: 54px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -36,7 +35,6 @@ code {
   position: absolute;
   bottom: 0;
   right: 0;
-  left: 0;
   color: #a7a7a7;
   font-size: 14px;
 }
@@ -51,14 +49,80 @@ code {
 }
 
 .content-center {
-  position: absolute;
-  top: 60%;
+  margin-top: 16vh;
   left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 .content-center a {
-  width: 250px;
-  height: 80px;
-  font-size: 24px;
+  width: 275px;
+  height: 90px;
+  font-size: 28px;
+}
+
+#logo {
+  width: 50vw;
+  max-width: 400px;
+  min-width: 270px;
+}
+
+#cse-dept {
+  margin-right: 10vw;
+  font-size: 54px;
+}
+
+#storage-server {
+  margin-top: 50px;
+  font-size: 70px;
+}
+
+@media (max-width: 1660px) {
+  #cse-dept {
+    margin-right: 5vw;
+    font-size: 45px;
+  }
+}
+@media (max-width: 1380px) {
+  #cse-dept {
+    margin-right: 2.5vw;
+    font-size: 35px;
+  }
+}
+@media (max-width: 638px) {
+  #cse-dept {
+    margin-right: 2.5vw;
+    font-size: 24px;
+  }
+  #logo {
+    width: 30vw;
+    /* max-width: 300px; */
+    min-width: 210px;
+  }
+  #storage-server {
+    margin-top: 40px;
+    font-size: 55px;
+  }
+  .content-center a {
+    width: 250px;
+    height: 90px;
+    font-size: 28px;
+  }
+}
+@media (max-width: 463px) {
+  #cse-dept {
+    margin-right: 0;
+    font-size: 16px;
+  }
+  #logo {
+    width: 25vw;
+    min-width: 100px;
+  }
+  #storage-server {
+    margin-top: 40px;
+    font-size: 40px;
+  }
+  .content-center a {
+    width: 250px;
+    height: 90px;
+    font-size: 28px;
+  }
 }
